@@ -1,0 +1,1100 @@
+{
+  "abbreviations": {
+    "f": "Fruit",
+    "s": "Salad",
+    "n": "Milk",
+    "fls": "Fresh Lime Soda",
+    "k": "Katori (150ml/150gms)",
+    "v": "Vegetables",
+    "c": "Curd",
+    "@": "Recipe (contact Ashu)",
+    "acv": "Apple Cider Vinegar",
+    "w": "Whites (egg whites)",
+    "gms": "Grams",
+    "tbsp": "Tablespoon"
+  },
+  "generalGuidelines": [
+    "Eat 2 fruits per day",
+    "Have salad and fresh lime soda before lunch and dinner",
+    "Eat with a teaspoon or fork (mindful eating)",
+    "No second helping",
+    "No salt after dinner",
+    "Walk 10,000 steps daily",
+    "Drink 4-6 glasses of water daily",
+    "No sugar",
+    "Post 7 PM: Papaya + 2 pieces dark chocolate (72% Lindt preferred)"
+  ],
+  "morningRoutine": {
+    "description": "Start your day with these soaked nuts and seeds",
+    "items": [
+      "6 soaked almonds",
+      "2 soaked walnuts",
+      "1 tbsp mixed seeds",
+      "1 date or 1 fig"
+    ],
+    "optional": ["Petha juice"]
+  },
+  "weeklyDietPlans": [
+    {
+      "id": "week1",
+      "name": "Weight Loss Plan - Phase 1",
+      "targetWeight": "61 kg",
+      "expectedLoss": "1 kg per week",
+      "recipeContact": "Ashu",
+      "days": [
+        {
+          "day": "Monday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["2 katori vegetables", "Salad", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["150 gms chicken", "Vegetables", "Salad", "Fresh lime soda"],
+              "calories": 350
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Chicken 2 katori", "Vegetables", "Salad", "Fresh lime soda"],
+              "calories": 380
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Bone broth"],
+              "calories": 100
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Chicken 2 katori", "Vegetables", "Salad", "Fresh lime soda"],
+              "calories": 380
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Bone broth"],
+              "calories": 100
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["2 katori vegetables", "Salad", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Fruit shake"],
+              "calories": 180
+            }
+          }
+        },
+        {
+          "day": "Friday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["2 katori vegetables", "Salad", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["150 gms chicken broth"],
+              "calories": 200
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Chicken 2 katori", "Vegetables", "Salad", "Fresh lime soda"],
+              "calories": 380
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Bone broth", "Fruit"],
+              "calories": 150
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake"],
+              "calories": 180
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["2 katori vegetables", "Salad", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake"],
+              "calories": 120
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["150 gms chicken", "Vegetables", "Salad", "Fresh lime soda"],
+              "calories": 350
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "week2",
+      "name": "Balanced Nutrition Plan",
+      "targetWeight": "Maintenance",
+      "recipeContact": "Ashu - 9818059235",
+      "days": [
+        {
+          "day": "Friday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 avocado toast", "2 egg whites", "Coffee"],
+              "calories": 280
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Grilled chicken", "Rice", "Salad", "Fresh lime soda"],
+              "calories": 450
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "30 gms cheese", "Olives"],
+              "calories": 220
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["1/2 tandoori chicken", "Salad", "Fresh lime soda"],
+              "calories": 380
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 avocado toast", "2 egg whites", "Coffee"],
+              "calories": 280
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Rice", "Thai curry"],
+              "calories": 420
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "30 gms cheese", "Olives"],
+              "calories": 220
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Malaika paneer (recipe)", "Salad", "Fresh lime soda"],
+              "calories": 350
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 avocado toast", "2 egg whites", "Coffee"],
+              "calories": 280
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["Grilled chicken", "Rice", "Salad", "Fresh lime soda"],
+              "calories": 450
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "30 gms cheese", "Olives"],
+              "calories": 220
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Chicken tikka", "Salad", "Fresh lime soda"],
+              "calories": 320
+            }
+          }
+        },
+        {
+          "day": "Monday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 avocado toast", "2 egg whites", "Coffee"],
+              "calories": 280
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rajma", "Rice", "Salad", "Fresh lime soda"],
+              "calories": 480
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "30 gms cheese", "Olives"],
+              "calories": 220
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Greek yogurt", "Berries"],
+              "calories": 200
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 avocado toast", "2 egg whites", "Coffee"],
+              "calories": 280
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rajma", "Rice", "Salad", "Fresh lime soda"],
+              "calories": 480
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "30 gms cheese", "Olives"],
+              "calories": 220
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Greek yogurt", "Berries"],
+              "calories": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "week3",
+      "name": "65 KG Target Plan",
+      "targetWeight": "65 kg",
+      "recipeContact": "Ashu - 9654059235",
+      "specialNotes": "1/2 tab Nityam after dinner if constipated",
+      "days": [
+        {
+          "day": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4-5 egg whites", "Protein shake", "8 almonds"],
+              "calories": 250
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori steamed rice", "150 gms chicken/fish", "Vegetables"],
+              "calories": 450
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "40 gms cheese", "10 olives"],
+              "calories": 280
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["200 gms chicken breast", "Beans", "Salad", "Fresh lime soda"],
+              "calories": 380
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4-5 egg whites", "Protein shake", "8 almonds"],
+              "calories": 250
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms quinoa", "150 gms chicken/fish", "Vegetables"],
+              "calories": 420
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "40 gms cheese", "10 olives"],
+              "calories": 280
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["200 gms chicken breast", "Beans", "Salad", "Fresh lime soda"],
+              "calories": 380
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4-5 egg whites", "Protein shake", "8 almonds"],
+              "calories": 250
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms quinoa", "150 gms chicken/fish", "Vegetables"],
+              "calories": 420
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "40 gms cheese", "10 olives"],
+              "calories": 280
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Vegan sugar-free ice cream (2 scoops)", "Berries", "2 tbsp toppings"],
+              "calories": 250
+            }
+          }
+        },
+        {
+          "day": "Friday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["4 egg whites", "Protein shake", "8 almonds"],
+              "calories": 230
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori quinoa", "150 gms chicken/fish", "Vegetables"],
+              "calories": 420
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "40 gms cheese", "10 olives"],
+              "calories": 280
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Vegan sugar-free ice cream (2 scoops)", "Berries", "2 tbsp toppings"],
+              "calories": 250
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "week4",
+      "name": "Steady Loss Plan",
+      "targetWeight": "63.2 kg",
+      "expectedLoss": "700 gms per week",
+      "recipeContact": "Ashu",
+      "days": [
+        {
+          "day": "Saturday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["2 eggs", "1/2 avocado", "Chilli oil", "Black coffee"],
+              "calories": 320
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rice", "1.5 katori rajma", "Salad", "Chaach"],
+              "calories": 480
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Olives", "Cheese"],
+              "calories": 250
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Grilled chicken", "Salad", "Fresh lime soda"],
+              "calories": 320
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["2 eggs", "1/2 avocado", "Chilli oil", "Black coffee"],
+              "calories": 320
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rice", "1.5 katori dal", "Salad", "Chaach"],
+              "calories": 450
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Olives", "Cheese"],
+              "calories": 250
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Grilled chicken", "Salad", "Fresh lime soda"],
+              "calories": 320
+            }
+          }
+        },
+        {
+          "day": "Monday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["2 eggs", "1/2 avocado", "Chilli oil", "Black coffee"],
+              "calories": 320
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rice", "1.5 katori dal", "Salad", "Chaach"],
+              "calories": 450
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Olives", "Cheese"],
+              "calories": 250
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Overnight oats (recipe)"],
+              "calories": 280
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["2 eggs", "1/2 avocado", "Chilli oil", "Black coffee"],
+              "calories": 320
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["1.5 katori rice", "1.5 katori rajma", "Salad", "Chaach"],
+              "calories": 480
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Olives", "Cheese"],
+              "calories": 250
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Overnight oats (recipe)"],
+              "calories": 280
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "week5",
+      "name": "Maintenance Plan",
+      "targetWeight": "58.2 kg",
+      "recipeContact": "Ashu",
+      "days": [
+        {
+          "day": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 whole egg", "2 egg whites", "Berries", "Coffee"],
+              "calories": 220
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms chicken", "Mushrooms", "Fresh lime soda"],
+              "calories": 320
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Handful of nuts"],
+              "calories": 200
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["2 boiled eggs", "Vegetables"],
+              "calories": 200
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 whole egg", "2 egg whites", "Berries", "Coffee"],
+              "calories": 220
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms chicken", "Broccoli", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Handful of nuts"],
+              "calories": 200
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Chicken soup (2 cups)"],
+              "calories": 180
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 whole egg", "2 egg whites", "Berries", "Coffee"],
+              "calories": 220
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms chicken", "Mushrooms", "Fresh lime soda"],
+              "calories": 320
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Handful of nuts"],
+              "calories": 200
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Greek yogurt", "Berries"],
+              "calories": 180
+            }
+          }
+        },
+        {
+          "day": "Friday",
+          "meals": {
+            "breakfast": {
+              "time": "8:00 AM",
+              "items": ["1 whole egg", "2 egg whites", "Berries", "Coffee"],
+              "calories": 220
+            },
+            "lunch": {
+              "time": "1:00 PM",
+              "items": ["150 gms chicken", "Beans", "Fresh lime soda"],
+              "calories": 300
+            },
+            "tea": {
+              "time": "4:00 PM",
+              "items": ["Protein shake", "Handful of nuts"],
+              "calories": 200
+            },
+            "dinner": {
+              "time": "7:00 PM",
+              "items": ["Greek yogurt", "Berries"],
+              "calories": 180
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "groceryList": {
+    "proteins": [
+      {
+        "name": "Eggs",
+        "quantity": "2-3 dozen per week",
+        "category": "protein",
+        "icon": "egg",
+        "notes": "Buy fresh, free-range if possible"
+      },
+      {
+        "name": "Chicken Breast",
+        "quantity": "1.5-2 kg per week",
+        "category": "protein",
+        "icon": "drumstick",
+        "notes": "Skinless, boneless preferred"
+      },
+      {
+        "name": "Fish (Salmon/Tilapia)",
+        "quantity": "500 gms per week",
+        "category": "protein",
+        "icon": "fish",
+        "notes": "Fresh or frozen fillets"
+      },
+      {
+        "name": "Protein Powder",
+        "quantity": "1 container (monthly)",
+        "category": "protein",
+        "icon": "protein",
+        "notes": "Whey or plant-based"
+      },
+      {
+        "name": "Greek Yogurt",
+        "quantity": "500 gms per week",
+        "category": "protein",
+        "icon": "yogurt",
+        "notes": "Plain, unsweetened"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "200 gms per week",
+        "category": "protein",
+        "icon": "cheese",
+        "notes": "Fresh, low-fat if available"
+      }
+    ],
+    "dairy": [
+      {
+        "name": "Cheese (Cheddar/Mozzarella)",
+        "quantity": "200-300 gms per week",
+        "category": "dairy",
+        "icon": "cheese",
+        "notes": "Block cheese for better quality"
+      },
+      {
+        "name": "Chaach/Buttermilk",
+        "quantity": "1 liter per week",
+        "category": "dairy",
+        "icon": "milk",
+        "notes": "Fresh or make at home with curd"
+      },
+      {
+        "name": "Black Coffee",
+        "quantity": "250 gms per month",
+        "category": "dairy",
+        "icon": "coffee",
+        "notes": "Good quality ground coffee"
+      }
+    ],
+    "grains": [
+      {
+        "name": "Basmati Rice",
+        "quantity": "1 kg per week",
+        "category": "grains",
+        "icon": "rice",
+        "notes": "Aged basmati preferred"
+      },
+      {
+        "name": "Quinoa",
+        "quantity": "500 gms per week",
+        "category": "grains",
+        "icon": "grain",
+        "notes": "Rinse well before cooking"
+      },
+      {
+        "name": "Whole Wheat Bread",
+        "quantity": "1 loaf per week",
+        "category": "grains",
+        "icon": "bread",
+        "notes": "For avocado toast"
+      },
+      {
+        "name": "Oats",
+        "quantity": "500 gms per week",
+        "category": "grains",
+        "icon": "oats",
+        "notes": "Rolled oats for overnight oats"
+      }
+    ],
+    "legumes": [
+      {
+        "name": "Rajma (Kidney Beans)",
+        "quantity": "500 gms per week",
+        "category": "legumes",
+        "icon": "beans",
+        "notes": "Soak overnight before cooking"
+      },
+      {
+        "name": "Dal (Yellow/Red Lentils)",
+        "quantity": "500 gms per week",
+        "category": "legumes",
+        "icon": "lentils",
+        "notes": "Wash thoroughly"
+      },
+      {
+        "name": "Green Beans",
+        "quantity": "250 gms per week",
+        "category": "legumes",
+        "icon": "beans",
+        "notes": "Fresh, trimmed"
+      }
+    ],
+    "vegetables": [
+      {
+        "name": "Mixed Salad Greens",
+        "quantity": "500 gms per week",
+        "category": "vegetables",
+        "icon": "salad",
+        "notes": "Lettuce, spinach, arugula mix"
+      },
+      {
+        "name": "Broccoli",
+        "quantity": "500 gms per week",
+        "category": "vegetables",
+        "icon": "broccoli",
+        "notes": "Fresh florets"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": "250 gms per week",
+        "category": "vegetables",
+        "icon": "mushroom",
+        "notes": "Button or cremini"
+      },
+      {
+        "name": "Avocado",
+        "quantity": "4-5 per week",
+        "category": "vegetables",
+        "icon": "avocado",
+        "notes": "Buy slightly firm to ripen at home"
+      },
+      {
+        "name": "Cucumber",
+        "quantity": "3-4 per week",
+        "category": "vegetables",
+        "icon": "cucumber",
+        "notes": "For salads"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": "500 gms per week",
+        "category": "vegetables",
+        "icon": "tomato",
+        "notes": "Ripe, firm tomatoes"
+      },
+      {
+        "name": "Bell Peppers",
+        "quantity": "3-4 per week",
+        "category": "vegetables",
+        "icon": "pepper",
+        "notes": "Mixed colors for variety"
+      },
+      {
+        "name": "Onions",
+        "quantity": "500 gms per week",
+        "category": "vegetables",
+        "icon": "onion",
+        "notes": "Red and white varieties"
+      },
+      {
+        "name": "Ginger & Garlic",
+        "quantity": "100 gms each per week",
+        "category": "vegetables",
+        "icon": "ginger",
+        "notes": "Fresh, not paste"
+      }
+    ],
+    "fruits": [
+      {
+        "name": "Berries (Mixed)",
+        "quantity": "500 gms per week",
+        "category": "fruits",
+        "icon": "berries",
+        "notes": "Strawberries, blueberries, raspberries"
+      },
+      {
+        "name": "Papaya",
+        "quantity": "1 medium per week",
+        "category": "fruits",
+        "icon": "papaya",
+        "notes": "Ripe, for evening snack"
+      },
+      {
+        "name": "Seasonal Fruits",
+        "quantity": "1 kg per week",
+        "category": "fruits",
+        "icon": "fruit",
+        "notes": "Apples, oranges, etc."
+      },
+      {
+        "name": "Limes/Lemons",
+        "quantity": "10-12 per week",
+        "category": "fruits",
+        "icon": "lime",
+        "notes": "For fresh lime soda"
+      },
+      {
+        "name": "Dates",
+        "quantity": "200 gms per week",
+        "category": "fruits",
+        "icon": "date",
+        "notes": "Medjool preferred"
+      },
+      {
+        "name": "Figs (Dried)",
+        "quantity": "200 gms per week",
+        "category": "fruits",
+        "icon": "fig",
+        "notes": "Can be fresh when in season"
+      }
+    ],
+    "nuts_seeds": [
+      {
+        "name": "Almonds",
+        "quantity": "250 gms per week",
+        "category": "nuts_seeds",
+        "icon": "almond",
+        "notes": "Raw, for soaking"
+      },
+      {
+        "name": "Walnuts",
+        "quantity": "150 gms per week",
+        "category": "nuts_seeds",
+        "icon": "walnut",
+        "notes": "Raw, for soaking"
+      },
+      {
+        "name": "Mixed Seeds",
+        "quantity": "200 gms per week",
+        "category": "nuts_seeds",
+        "icon": "seeds",
+        "notes": "Pumpkin, sunflower, flax, chia"
+      },
+      {
+        "name": "Olives",
+        "quantity": "200 gms per week",
+        "category": "nuts_seeds",
+        "icon": "olive",
+        "notes": "Black or green, pitted"
+      }
+    ],
+    "condiments": [
+      {
+        "name": "Chilli Oil",
+        "quantity": "1 bottle (monthly)",
+        "category": "condiments",
+        "icon": "oil",
+        "notes": "Good quality, not too spicy"
+      },
+      {
+        "name": "Apple Cider Vinegar",
+        "quantity": "1 bottle (monthly)",
+        "category": "condiments",
+        "icon": "vinegar",
+        "notes": "With mother, organic"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "500 ml (bi-weekly)",
+        "category": "condiments",
+        "icon": "oil",
+        "notes": "Extra virgin for salads"
+      },
+      {
+        "name": "Salt (Pink Himalayan)",
+        "quantity": "250 gms (monthly)",
+        "category": "condiments",
+        "icon": "salt",
+        "notes": "Limit use after dinner"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": "100 gms (monthly)",
+        "category": "condiments",
+        "icon": "pepper",
+        "notes": "Freshly ground preferred"
+      },
+      {
+        "name": "Thai Curry Paste",
+        "quantity": "1 jar (monthly)",
+        "category": "condiments",
+        "icon": "curry",
+        "notes": "Red or green curry"
+      },
+      {
+        "name": "Tandoori Masala",
+        "quantity": "100 gms (monthly)",
+        "category": "condiments",
+        "icon": "spice",
+        "notes": "For chicken preparations"
+      }
+    ],
+    "others": [
+      {
+        "name": "Dark Chocolate (72%+)",
+        "quantity": "100 gms per week",
+        "category": "others",
+        "icon": "chocolate",
+        "notes": "Lindt 72% recommended"
+      },
+      {
+        "name": "Soda Water",
+        "quantity": "2 liters per week",
+        "category": "others",
+        "icon": "water",
+        "notes": "For fresh lime soda"
+      },
+      {
+        "name": "Petha (optional)",
+        "quantity": "As needed",
+        "category": "others",
+        "icon": "fruit",
+        "notes": "For morning juice"
+      },
+      {
+        "name": "Vegan Ice Cream",
+        "quantity": "1 container per week",
+        "category": "others",
+        "icon": "icecream",
+        "notes": "Sugar-free variety"
+      }
+    ]
+  },
+  "mealPrepTips": [
+    {
+      "title": "Sunday Prep Day",
+      "description": "Dedicate 2-3 hours on Sunday to prep for the week",
+      "tips": [
+        "Boil eggs for the week (store in refrigerator)",
+        "Wash and chop all vegetables",
+        "Cook a large batch of rice/quinoa",
+        "Marinate chicken portions for the week",
+        "Prepare overnight oats portions",
+        "Soak almonds and walnuts for the week"
+      ],
+      "icon": "calendar"
+    },
+    {
+      "title": "Protein Prep",
+      "description": "Prepare protein portions in advance",
+      "tips": [
+        "Grill or bake chicken breasts in bulk",
+        "Season with different spices for variety",
+        "Portion into daily containers (150-200 gms each)",
+        "Store in airtight containers",
+        "Can be reheated or eaten cold in salads",
+        "Make bone broth on weekends"
+      ],
+      "icon": "drumstick"
+    },
+    {
+      "title": "Salad Station",
+      "description": "Keep a salad station ready in your fridge",
+      "tips": [
+        "Wash and dry greens, store in paper towel-lined container",
+        "Pre-cut vegetables in separate containers",
+        "Keep dressings (olive oil, ACV, lime) ready",
+        "Assemble fresh each day for best results",
+        "Store cucumbers separately to avoid sogginess"
+      ],
+      "icon": "salad"
+    },
+    {
+      "title": "Snack Prep",
+      "description": "Prepare healthy snacks in advance",
+      "tips": [
+        "Portion cheese (30-40 gms) in small containers",
+        "Keep olives ready in small servings",
+        "Mix protein powder portions in bags",
+        "Pre-portion nuts and seeds",
+        "Cut fruits in morning for day's consumption"
+      ],
+      "icon": "snack"
+    },
+    {
+      "title": "Morning Routine Setup",
+      "description": "Prepare your morning routine the night before",
+      "tips": [
+        "Soak almonds and walnuts overnight",
+        "Set up coffee maker",
+        "Pre-slice bread for avocado toast",
+        "Keep eggs accessible",
+        "Prepare protein shake ingredients"
+      ],
+      "icon": "sunrise"
+    },
+    {
+      "title": "Storage Tips",
+      "description": "Proper storage ensures freshness",
+      "tips": [
+        "Use glass containers for meal storage",
+        "Label containers with dates",
+        "Cooked chicken lasts 3-4 days refrigerated",
+        "Freeze extra portions for busy days",
+        "Keep avocados at room temperature until ripe"
+      ],
+      "icon": "box"
+    }
+  ]
+}
