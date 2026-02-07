@@ -824,6 +824,67 @@ main {
   transition: width var(--transition);
 }
 
+/* Export Actions */
+.export-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn-export {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 2px solid var(--border);
+  cursor: pointer;
+}
+
+.btn-export:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(16, 185, 129, 0.05);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-export:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-export.btn-notes {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-color: #f59e0b;
+  color: #92400e;
+}
+
+.btn-export.btn-notes:hover {
+  background: linear-gradient(135deg, #fde68a 0%, #fcd34d 100%);
+  border-color: #d97706;
+  color: #78350f;
+  box-shadow: var(--shadow-md), 0 4px 14px rgba(245, 158, 11, 0.25);
+}
+
+@media (max-width: 576px) {
+  .export-actions {
+    flex-direction: column;
+  }
+
+  .btn-export {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .grocery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
