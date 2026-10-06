@@ -1,6 +1,9 @@
 import { ChevronDown, Target, TrendingDown, Apple } from 'lucide-react'
+import dietData from '../data/dietData.json'
 
 const Hero = () => {
+  const planCount = dietData.weeklyDietPlans.length
+
   return (
     <section id="home" className="hero">
       <div className="hero-background">
@@ -23,7 +26,7 @@ const Hero = () => {
           <div className="stat-card">
             <Target className="stat-icon" />
             <div className="stat-content">
-              <span className="stat-number">5</span>
+              <span className="stat-number">{planCount}</span>
               <span className="stat-label">Diet Plans</span>
             </div>
           </div>

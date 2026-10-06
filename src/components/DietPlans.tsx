@@ -8,16 +8,36 @@ import {
   Sunset,
   Moon,
   Flame,
-  Target,
+  Scale,
+  TrendingDown,
+  TrendingUp,
+  Minus,
   Phone
 } from 'lucide-react'
 import dietData from '../data/dietData.json'
 
-const mealIcons: { [key: string]: React.ReactNode } = {
+const mealOrder = ['breakfast', 'lunch', 'tea', 'dinner'] as const
+type MealType = (typeof mealOrder)[number]
+
+const mealIcons: Record<MealType, React.ReactNode> = {
   breakfast: <Coffee size={18} />,
   lunch: <Sun size={18} />,
   tea: <Sunset size={18} />,
   dinner: <Moon size={18} />,
+}
+
+const formatWeekOf = (iso: string) =>
+  new Date(`${iso}T00:00:00`).toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  })
+
+const progressIcon = (progress: string) => {
+  const p = progress.toLowerCase()
+  if (p.startsWith('gain')) return <TrendingUp size={14} />
+  if (p.startsWith('no')) return <Minus size={14} />
+  return <TrendingDown size={14} />
 }
 
 const DietPlans = () => {
@@ -28,10 +48,13 @@ const DietPlans = () => {
   const currentPlan = weeklyDietPlans[selectedPlanIndex]
   const currentDay = currentPlan.days[selectedDayIndex]
 
-  const totalCalories = Object.values(currentDay.meals).reduce(
-    (sum, meal) => sum + (meal.calories || 0),
-    0
-  )
+  // Charts often start or end mid-week, so a day may list only some meals.
+  const dayMeals = mealOrder.flatMap((mealType) => {
+    const meal = currentDay.meals[mealType]
+    return meal ? [{ mealType, meal }] : []
+  })
+
+  const totalCalories = dayMeals.reduce((sum, { meal }) => sum + (meal.calories || 0), 0)
 
   const handlePrevPlan = () => {
     setSelectedPlanIndex((prev) =>
@@ -66,16 +89,22 @@ const DietPlans = () => {
           <div className="plan-info">
             <h3 className="plan-name">{currentPlan.name}</h3>
             <div className="plan-meta">
-              {currentPlan.targetWeight && (
+              {currentPlan.weekOf && (
                 <span className="plan-tag">
-                  <Target size={14} />
-                  Target: {currentPlan.targetWeight}
+                  <Calendar size={14} />
+                  Week of {formatWeekOf(currentPlan.weekOf)}
                 </span>
               )}
-              {currentPlan.expectedLoss && (
+              {currentPlan.weight && (
+                <span className="plan-tag">
+                  <Scale size={14} />
+                  Weigh-in: {currentPlan.weight}
+                </span>
+              )}
+              {currentPlan.progress && (
                 <span className="plan-tag loss">
-                  <Flame size={14} />
-                  {currentPlan.expectedLoss}
+                  {progressIcon(currentPlan.progress)}
+                  {currentPlan.progress}
                 </span>
               )}
               {currentPlan.recipeContact && (
@@ -128,7 +157,7 @@ const DietPlans = () => {
           </div>
 
           <div className="meals-grid">
-            {Object.entries(currentDay.meals).map(([mealType, meal]) => (
+            {dayMeals.map(({ mealType, meal }) => (
               <div key={mealType} className={`meal-card ${mealType}`}>
                 <div className="meal-header">
                   <div className="meal-icon">{mealIcons[mealType]}</div>

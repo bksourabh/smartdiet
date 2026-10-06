@@ -4,7 +4,7 @@ A professional, responsive diet planning website built with React and TypeScript
 
 ## Features
 
-- **5 Weekly Diet Plans** - Carefully curated meal plans for different weight loss goals
+- **14 Weekly Diet Plans** - Every weekly chart from June to August 2025, in date order
 - **Interactive Grocery List** - Checkable shopping list with progress tracking
 - **Meal Prep Tips** - Comprehensive guides for efficient meal preparation
 - **Diet Guidelines** - Essential rules and morning routine recommendations
@@ -13,11 +13,22 @@ A professional, responsive diet planning website built with React and TypeScript
 
 ## Diet Plans Included
 
-1. **Weight Loss Plan - Phase 1** (Target: 61 kg, Expected loss: 1 kg/week)
-2. **Balanced Nutrition Plan** (Maintenance)
-3. **65 KG Target Plan**
-4. **Steady Loss Plan** (Target: 63.2 kg, Expected loss: 700 gms/week)
-5. **Maintenance Plan** (Target: 58.2 kg)
+Transcribed from the dated charts in `dietrawdata/` (filename `PHOTO-<date>.JPG`). Days with blank cells on the chart list only the meals shown; calorie figures are rough estimates, not from the charts.
+
+1. **Rice, Quinoa & Chicken** - week of 2025-06-24 (weigh-in 65 kg)
+2. **Avocado Toast & Grilled Chicken** - week of 2025-06-27
+3. **Egg & Cottage Cheese Breakfasts** - week of 2025-07-01 (weigh-in 64.2 kg, Gained 200 gms)
+4. **Boiled Eggs & Chicken Salad** - week of 2025-07-04 (weigh-in 63.9 kg, Lost 500 gms)
+5. **Rice, Rajma & Dal** - week of 2025-07-08 (weigh-in 63.2 kg, Lost 700 gms)
+6. **Greek Yogurt & Muesli** - week of 2025-07-11
+7. **Egg Whites & Rajma** - week of 2025-07-18 (weigh-in 63 kg, No loss)
+8. **Cottage Cheese & Edamame** - week of 2025-07-22
+9. **Quinoa Salads & Smoothies** - week of 2025-07-29 (weigh-in 62 kg)
+10. **Egg Whites & Bone Broth** - week of 2025-08-05 (weigh-in 61 kg, Lost 1 kg)
+11. **Chicken Salad & Egg Whites** - week of 2025-08-08
+12. **Rice, Chicken & Soup** - week of 2025-08-16 (weigh-in 58.1 kg, Loss)
+13. **Chicken & Mushrooms** - week of 2025-08-19 (weigh-in 58.2 kg)
+14. **Chicken Breast & Quinoa** - week of 2025-08-22
 
 ## Tech Stack
 
@@ -91,7 +102,7 @@ smartdiet/
 │   ├── App.css
 │   ├── index.css
 │   └── main.tsx
-├── dietrawdata/          # Original diet chart images
+├── dietrawdata/          # Original diet chart images (one dated JPG per week)
 ├── .github/workflows/    # GitHub Actions for deployment
 ├── index.html
 ├── package.json
@@ -112,6 +123,7 @@ All diet information is stored in `src/data/dietData.json` including:
 ## Contact for Recipes
 
 - **Ashu**: 9818059235 / 9654059235
+- **Geetali**: 9818059235 (weeks 8 and 12)
 
 ## License
 
